@@ -1,0 +1,8 @@
+
+- Lists all Python packages required to run the Sticker Counter Bot.
+- Ensures a consistent environment for anyone using or deploying the bot.
+- Main dependency:
+    • aiogram==3.12.0 — Telegram bot framework for asynchronous operations.
+- Install dependencies using:
+    pip install -r requirements.txt
+- Keeps the bot running smoothly with all required libraries.
