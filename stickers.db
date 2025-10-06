@@ -1,0 +1,12 @@
+
+- Stores all persistent data for the Telegram Sticker Counter Bot.
+- Tables included:
+    • stickers — Tracks sticker counts per user per group.
+        - group_id: ID of the group chat.
+        - user_id: ID of the user.
+        - username: Full name of the user.
+        - count: Number of stickers sent by the user in that group.
+    • groups — Stores group IDs where the bot is active.
+- Automatically created on the first run of bot.py if it doesn't exist.
+- Keeps data persistent even if the bot restarts.
+- Not included in version control (.gitignore) to avoid conflicts and private data leaks.
