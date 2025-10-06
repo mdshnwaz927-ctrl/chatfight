@@ -1,0 +1,8 @@
+
+- Prevents unnecessary or sensitive files from being pushed to GitHub.
+- Common entries for this project:
+    • __pycache__/ — Python compiled bytecode folders.
+    • *.pyc — Compiled Python files.
+    • stickers.db — Local SQLite database with bot data.
+    • .env — Optional file for environment variables or API tokens.
+- Ensures the repository stays clean and secure.
